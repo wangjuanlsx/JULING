@@ -189,7 +189,7 @@ body {
 }
 
 /* 固定高度，滚动查看 */
-@media (max-height: 704px) {
+@media only screen and (max-height: 704px) {
 	.gift-packs-wrap {
 		position: relative;
 		height: 704px;

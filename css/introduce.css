@@ -276,7 +276,7 @@ body {
     }
 } */
 /*iPhone5的适配*/
-@media (max-width: 320px){
+@media only screen and (max-width: 320px){
   .top-gift-wrap {
   	padding-bottom: 0px;
   }
@@ -289,7 +289,7 @@ body {
 }
 
 /* 固定高度，滚动查看 */
-@media (max-height: 704px) {
+@media only screen and (max-height: 704px) {
 	.introduce-wrap {
 		position: relative;
 		height: 704px;
