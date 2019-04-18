@@ -1,0 +1,288 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+.introduce-wrap {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(../img/introduce/bg.png);
+	background-size: cover;
+}
+.top-gift-wrap {
+	width: 100%;
+	padding: 10px 15px;
+	position: relative;
+	padding-bottom: 5px;
+}
+.top-gift-wrap .top-gift-box {
+	width: 100%
+}
+.talk-content {
+	position: absolute;
+	right: 25px;
+	width: 60%;
+	top: 35%;
+}
+.talk-content .get-gift {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+.talk-content .get-gift .left {
+	width: 22%
+}
+.talk-content .get-gift .left img {
+	width: 100%;
+}
+.talk-content .get-gift .right {
+	width: 78%;
+}
+.talk-content .get-gift .right ul{
+	display: flex;
+	display: -webkit-flex;
+	overflow: scroll;
+	white-space: nowrap;
+}
+.talk-content .get-gift .right ul li {
+	list-style: none;
+	width: 20%;
+	text-align: center;
+	margin-left: 15px;
+	display: inline-block;
+}
+.talk-content .get-gift .right ul li .coin {
+	width: 100%;
+}
+.talk-content .get-gift .right ul li p {
+	margin-top: -18px;
+	text-align: center;
+	font-size: 10px;
+}
+.talk-content .get-gift .right ul li .title {
+	width: 70%;
+}
+.talk-content .gift-word {
+	width: 100%;
+	margin-top: 10px;
+}
+.to-web-wrap {
+	width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-web-wrap .to-web-word {
+	width: 53%;
+    margin: 0 15px;
+}
+.to-web-wrap .right-icon {
+	width: 3%;
+	animation:toright .8s linear infinite;
+	-webkit-animation:toright .8s linear infinite; /*Safari and Chrome*/
+}
+.to-web-wrap .left-icon {
+	width: 3%;
+	animation:toleft .8s linear infinite;
+	-webkit-animation:toleft .8s linear infinite; /*Safari and Chrome*/
+}
+@keyframes toleft
+{
+	0% {
+		transform: translate(8px,0px);
+		opacity: 0;
+	}
+	100% {
+		transform: translate(0px,0px);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes toleft 
+{
+	0% {
+		transform: translate(8px,0px);
+		opacity: 0;
+	}
+	100% {
+		transform: translate(0px,0px);
+		opacity: 1;
+	}
+}
+
+@keyframes toright
+{
+	0% {
+		transform: translate(-8px,0px);
+		opacity: 0;
+	}
+	100% {
+		transform: translate(0px,0px);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes toright 
+{
+	0% {
+		transform: translate(-8,0px);
+		opacity: 1;
+	}
+	100% {
+		transform: translate(0px,0px);
+		opacity: 0;
+	}
+}
+
+.web-remember-wrap {
+	width: 100%;
+	margin-top: 10px;
+}
+.web-remember-wrap img {
+	width: 100%;
+}
+.web-copy-wrap {
+	width: 100%;
+	text-align: center;
+}
+.web-copy-wrap img {
+    width: 32%;
+}
+
+.picture-play-wrap {
+	width: 100%;
+	padding: 5px 15px;
+
+}
+.picture-play-wrap img {
+	width: 100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 2px;
+}
+.swiper-pagination-bullet {
+	width: 8px;
+	height: 2px;
+	background: #0a9ded;
+	border-radius: 0;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active {
+	background: #fff;
+}
+
+
+
+.focus-wrap {
+	width: 100%;
+	position: absolute;
+	bottom: 15%;
+}
+.focus-wrap .code-word {
+	width: 96%;
+	display: block;
+	margin: 0 auto;
+}
+.focus-channel {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 8px;
+}
+.focus-channel .code-channel {
+	margin: 0 10px;
+	width: 27%;
+	position: relative;
+}
+.focus-channel .code-channel img:first-child {
+   width: 100%;
+   position: absolute;
+}
+.focus-channel .code-channel img:last-child {
+   width: 60%;
+   position: absolute;
+   top: 16%;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: 0 auto;s
+}
+.focus-channel .other {
+	margin: 0 10px;
+	width: 27%;
+}
+.focus-channel .other img {
+	width: 100%;
+	margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tips-wrap {
+	position: absolute;
+	bottom: -4px;
+	width: 100%;
+	text-align: center;
+}
+.tips-wrap img {
+	width: 85%;
+}
+.tips-word {
+	position: absolute;
+	bottom: 10px;
+	font-size: 9px;
+	color: #c4c4c4;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	transform: scale(.9,.9);
+}
+/*iPhoneX的适配*/
+/* @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .introduce-wrap {
+        padding-top: 88px;   //为导航栏+状态栏的高度 88px  
+    }
+} */
+/*iPhone5的适配*/
+@media (max-width: 320px){
+  .top-gift-wrap {
+  	padding-bottom: 0px;
+  }
+  .web-remember-wrap {
+  	margin-top: 8px;
+  }
+  .talk-content {
+  	width: 58%;
+  }
+}

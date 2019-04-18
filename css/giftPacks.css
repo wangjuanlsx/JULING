@@ -1,0 +1,130 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+.gift-packs-wrap {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(../img/giftPacks/bg.png);
+	background-size: cover;
+}
+.top-talk {
+	width: 100%;
+	margin-top: 20px;
+}
+.top-talk img {
+	width: 100%;
+}
+.play-way-wrap {
+	width: 100%;
+	position: absolute;
+	top: 45%;
+}
+.play-way-wrap img {
+	width: 100%;
+}
+.join-in-wrap {
+	width: 100%;
+	position: absolute;
+	top: 67%;
+	text-align: center;
+}
+.join-in-wrap .join-btn {
+	display: block;
+}
+.join-in-wrap .join-icon, .join-in-wrap .join-btn img,.join-in-wrap .join-address {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+.join-in-wrap .join-icon {
+	width: 11%;
+	animation:todown .8s linear infinite;
+	-webkit-animation:todown .8s linear infinite; /*Safari and Chrome*/
+}
+@keyframes todown
+{
+	0% {transform: translate(0,0px);}
+	50% {transform: translate(0,8px);}
+	100% {transform: translate(0,0px);}
+}
+
+@-webkit-keyframes todown 
+{
+	0% {transform: translate(0,0px);}
+	50% {transform: translate(0,8px);}
+	100% {transform: translate(0,0px);}
+}
+.join-in-wrap .join-btn img {
+	width: 30%;
+}
+.join-in-wrap .join-address {
+	margin-top: 10px;
+	width: 45%;
+}
+.join-in-wrap .join-link {
+	color: #fff;
+	margin-top: -20px;
+	font-size: 13px;
+	display: block;
+	text-decoration: none;
+}
+.tips-wrap {
+	position: absolute;
+	bottom: -4px;
+	width: 100%;
+	text-align: center;
+}
+.tips-wrap img {
+	width: 85%;
+}
+.tips-word {
+	position: absolute;
+	bottom: 10px;
+	font-size: 9px;
+	color: #c4c4c4;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	transform: scale(.9,.9);
+}
+.gift-box {
+	width: 100%;
+	top: 20%;
+	position: absolute;
+}
+.gift-box img {
+	width: 100%;
+}
+/*iPhoneX的适配*/
+/* @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .gift-packs-wrap {
+        padding-top: 88px;   //为导航栏+状态栏的高度 88px  
+    }
+} */
+/*iPhone5的适配*/
+@media (max-width: 320px){
+  .tips-word {
+  	transform: scale(.8,.8);
+  }
+}
