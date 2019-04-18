@@ -25,7 +25,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: url(../img/giftPacks/bg.png);
+	background: url(../img/giftPacks/bg2.png);
 	background-size: cover;
 }
 .top-talk {
@@ -108,10 +108,55 @@ body {
 	right: 0;
 	transform: scale(.9,.9);
 }
+.gift-box-wrap {
+	position: relative;
+    top: 3%;
+    left: -1%;
+    width: 375px;
+    margin: 0 auto;
+}
+.gift-box-wrap img {
+	width: 130%;
+    position: absolute;
+    top: -28%;
+    /* z-index: 0; */
+    left: -12%;
+}
 .gift-box {
-	width: 100%;
-	top: 20%;
-	position: absolute;
+	background: url(./../img/giftPacks/box-animate.png);
+	width: 610px;
+	height:417px;
+	animation: boxopen 2s 2s steps(18) forwards;
+	zoom:0.5;
+	margin: 0 auto;
+	position: relative;
+	/* transition-delay: 2s; */
+}
+@keyframes boxopen{
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -1800% 0px;
+	}
+}
+.light {
+	width: 349px;
+	height: 174px;
+	background: url(./../img/giftPacks/light.png);
+	animation: light 1s 2s steps(7) infinite;
+	zoom:0.5;
+	margin: 0 auto;
+	margin-top: -140px;
+	position: relative;
+}
+@keyframes light{
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -700% 0px;
+	}
 }
 .gift-box img {
 	width: 100%;
@@ -121,10 +166,22 @@ body {
     .gift-packs-wrap {
         padding-top: 88px;   //为导航栏+状态栏的高度 88px  
     }
-} */
+    } */
 /*iPhone5的适配*/
-@media (max-width: 320px){
-  .tips-word {
-  	transform: scale(.8,.8);
-  }
+@media only screen and (max-width: 320px){
+	.tips-word {
+		transform: scale(.8,.8);
+	}
+}
+@media only screen and (max-width: 374px){
+	.gift-box-wrap {
+		width: 320px;
+
+	}
+	.gift-box, .light  {
+      zoom:0.4;
+	}
+	.gift-box-wrap img {
+		top: -36%;
+	}
 }
