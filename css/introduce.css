@@ -282,6 +282,12 @@ body {
 	}
 
 }
+@media only screen and (min-height: 704px) and (max-height: 736px) {
+	.introduce-wrap {
+		position: relative;
+		height: 736px;
+	}
+}
 @media only screen and (min-height: 800px) {
 	.picture-play-wrap {
         padding: 65px 15px;
