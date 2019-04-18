@@ -161,6 +161,8 @@ body {
 .gift-box img {
 	width: 100%;
 }
+
+
 /*iPhoneX的适配*/
 /* @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .gift-packs-wrap {
@@ -184,4 +186,13 @@ body {
 	.gift-box-wrap img {
 		top: -36%;
 	}
+}
+
+/* 固定高度，滚动查看 */
+@media (max-height: 704px) {
+	.gift-packs-wrap {
+		position: relative;
+		height: 704px;
+	}
+
 }

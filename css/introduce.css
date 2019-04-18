@@ -268,6 +268,7 @@ body {
 	right: 0;
 	transform: scale(.9,.9);
 }
+
 /*iPhoneX的适配*/
 /* @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     .introduce-wrap {
@@ -285,4 +286,17 @@ body {
   .talk-content {
   	width: 58%;
   }
+}
+
+/* 固定高度，滚动查看 */
+@media (max-height: 704px) {
+	.introduce-wrap {
+		position: relative;
+		height: 704px;
+	}
+	.top-gift-wrap, .picture-play-wrap {
+		padding: 15px;
+		padding-bottom: 15px;
+	}
+
 }
