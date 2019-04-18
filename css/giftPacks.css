@@ -114,6 +114,7 @@ body {
     left: -1%;
     width: 375px;
     margin: 0 auto;
+    overflow: hidden;
 }
 .gift-box-wrap img {
 	width: 130%;
