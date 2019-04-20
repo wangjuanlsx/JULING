@@ -4,6 +4,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    overflow-y: auto;
     background: url(../img/common/bg.jpg);
     background-size: cover;
 }
@@ -343,6 +344,10 @@ p.table-color4{
 }
 /*iPhone5的适配*/
 @media only screen and (max-width: 320px){
+    .my-purse-wrap {
+        position: relative;
+        height: 568px;
+    }
     .my-purse-content{
         width: 15rem;
         height: 20rem;
@@ -454,6 +459,6 @@ p.table-color4{
 @media only screen and (min-height: 704px) and (max-height: 736px)  {
     .my-purse-wrap {
         position: relative;
-        height: 704px;
+        height: 667px;
     }
 }
