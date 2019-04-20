@@ -123,10 +123,10 @@ body {
     left: 0%;
 }
 .gift-box {
-	background: url(./../img/giftPacks/box-animate2.png);
+	background: url(./../img/giftPacks/box-animate4.png);
 	width: 610px;
 	height:417px;
-	animation: boxopen 2s 2s steps(18) forwards;
+	animation: boxopen 2s 2s steps(6) forwards;
 	zoom:0.5;
 	margin: 0 auto;
 	position: relative;
@@ -137,10 +137,36 @@ body {
 		background-position: 0 0;
 	}
 	to {
-		background-position: -1800% 0px;
+		background-position: -600% 0px;
 	}
 }
 @-webkit-keyframes boxopen{
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -1800% 0px;
+	}
+}
+.test-box2 {
+	background: url(./../img/giftPacks/box-animate4.png);
+	width: 610px;
+	height:417px;
+	animation: boxopenww 2s 2s steps(7) infinite;
+	zoom:0.5;
+	margin: 0 auto;
+	position: relative;
+	/* transition-delay: 2s; */
+}
+@keyframes boxopenww{
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -700% 0px;
+	}
+}
+@-webkit-keyframes boxopenww{
 	from {
 		background-position: 0 0;
 	}
@@ -152,18 +178,17 @@ body {
 	background: url(./../img/giftPacks/box-animate3.png);
 	width: 610px;
 	height:417px;
-	animation: boxopensss 2s 2s steps(15) forwards;
+	animation: boxopensss 2s 2s steps(16) infinite;
 	zoom:0.5;
 	margin: 0 auto;
 	position: relative;
-	/* transition-delay: 2s; */
 }
 @keyframes boxopensss{
 	from {
 		background-position: 0 0;
 	}
 	to {
-		background-position: -1500% 0px;
+		background-position: -1600% 0px;
 	}
 }
 @-webkit-keyframes boxopensss{
