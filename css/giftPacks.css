@@ -25,7 +25,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: url(../img/giftPacks/bg2.png);
+	background: url(../img/giftPacks/bg3.png);
 	background-size: cover;
 }
 .top-talk {
@@ -123,7 +123,7 @@ body {
     left: 0%;
 }
 .gift-box {
-	background: url(./../img/giftPacks/box-animate2.png);
+	background: url(./../img/giftPacks/box-animate.png);
 	width: 610px;
 	height:417px;
 	animation: boxopen 2s 2s steps(18) forwards;
@@ -143,7 +143,7 @@ body {
 .light {
 	width: 349px;
 	height: 174px;
-	background: url(./../img/giftPacks/light.png);
+	background: url(./../img/giftPacks/light2.png);
 	animation: light 1s 2s steps(7) infinite;
 	zoom:0.5;
 	margin: 0 auto;
