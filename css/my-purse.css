@@ -1,0 +1,416 @@
+.my-purse-wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(../img/common/bg.jpg);
+    background-size: cover;
+}
+.my-purse-title-wrap{
+    margin-top:1rem;
+    text-align: center;
+}
+.my-purse-title-wrap img{
+    width: 8rem;
+}
+.my-purse-content-wrap{
+   position: relative;
+    height: 22rem;
+    text-align: center;
+}
+.my-purse-content{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+    width: 17rem;
+    height: 22.5rem;
+    background: url(../img/my-purse/content-bg.png) no-repeat;
+    background-size: contain;
+}
+.my-purse-content-header{
+    text-align: center;
+
+}
+.my-purse-content-header ul{
+    width: 95%;
+    margin-left: 2.25%;
+    display: flex;
+    justify-content : space-between
+}
+.my-purse-content-header ul li{
+    width: 5rem;
+    height: 5.5rem;
+    background: rgba(0,0,0,0.2);
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+.my-purse-content-header ul li p{
+    margin-top:4.3rem;
+    color: #4bd1fb;
+    font-weight: bold;
+}
+.my-purse-money-wrap{
+    margin-top: 1rem;
+
+}
+.my-purse-money-wrap img{
+    width: 4rem;
+}
+.my-purse-money-wrap img.my-purse-money-unit{
+    width: 0.8rem;
+}
+.my-purse-money-wrap p{
+    font-size: 1.7rem;
+    color: #4bd1fb;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.my-purse-money-wrap img.my-purse-withdraw-cashes{
+    width: 10.5rem;
+}
+.my-purse-tips-wrap {
+
+}
+.my-purse-tips-wrap .my-purse-tips{
+    text-align: left;
+}
+.my-purse-tips-wrap .my-purse-tips img{
+    width: 3rem;
+    margin-left: 1.5rem;
+}
+.my-purse-tips-wrap .my-purse-line{
+    margin-top:-10px;
+}
+.my-purse-tips-wrap .my-purse-line img{
+    width: 10rem;
+    height: 1px;
+}
+.my-purse-tips-content{
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+}
+.my-purse-tips-content p{
+    font-size: 0.65rem;
+}
+.my-purse-red-pack-wrap{
+    text-align: left;
+    margin-left: 1.5rem;
+    position: absolute;
+    bottom: 0.5rem;
+}
+.my-purse-red-pack-wrap img.my-purse-red-pack-btn{
+    width: 3.8rem;
+}
+/*弹框*/
+.my-purse-modal-mark-wrap{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+.my-purse-header-modal-wrap{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+.my-purse-header-modal{
+    position: relative;
+    width: 17rem;
+    height: 9rem;
+    background: url(../img/my-purse/mode-header-bg.png) no-repeat;
+    background-size: contain;
+}
+.my-purse-header-modal-close{
+    position: absolute;
+    right: -4px;
+    top: -10px;
+    width: 1.5rem;
+}
+.my-purse-header-modal-close img{
+    width: 1.5rem;
+}
+.my-purse-header-modal-title{
+    position: absolute;
+    left: 0.7rem;
+    top: 1rem;
+    width: 0.7rem;
+}
+.my-purse-header-modal-title img{
+    width: 0.7rem;
+}
+.my-purse-header-modal-content{
+    position: absolute;
+    top: 1.5rem;
+}
+.my-purse-header-modal-content p{
+    width: 77%;
+    margin-left: 16%;
+    color: #faf4c0;
+    margin-bottom: 0.5rem;
+}
+/*提现余额不足弹框*/
+.my-purse-withdraw-cashes-modal {
+    position: relative;
+    width: 17rem;
+    height: 14rem;
+    text-align: center;
+    background: url(../img/my-purse/model-2.png) no-repeat;
+    background-size: contain;
+}
+.my-purse-withdraw-cashes-modal-close{
+    position: absolute;
+    top: 0.2rem;
+    right: -0.1rem;
+    width: 1.2rem;
+}
+.my-purse-withdraw-cashes-modal-close img{
+    width: 1.2rem;
+}
+.my-purse-withdraw-cashes-title{
+    position: absolute;
+    top: 2.3rem;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+}
+.my-purse-withdraw-cashes-title img{
+    width: 5.5rem;
+}
+.my-purse-withdraw-cashes-content{
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+}
+.my-purse-withdraw-cashes-content p{
+    color: #4bd1fb;
+}
+.my-purse-withdraw-cashes-btn{
+    position: absolute;
+    bottom: 1.6rem;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+    width: 5rem;
+}
+.my-purse-withdraw-cashes-btn img{
+    width: 5rem;
+}
+.my-purse-withdraw-cashes-title2{
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+}
+.my-purse-withdraw-cashes-title2 img{
+    width: 8rem;
+}
+.my-purse-withdraw-cashes-btn2{
+    position: absolute;
+    bottom: 1.6rem;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+    width: 6rem;
+}
+.my-purse-withdraw-cashes-btn2 img{
+    width: 6rem;
+}
+.my-purse-withdraw-cashes-content2{
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+}
+.my-purse-withdraw-cashes-content2 p{
+    color:#4bd1fb;
+    margin-bottom: 0.5rem;
+}
+.color2{
+    color:#e24b4f;
+}
+.color3{
+    color:#fbf54b;
+}
+.color4{
+    color:#4bfbc7;
+}
+.my-purse-withdraw-cashes-content2 p.my-purse-withdraw-cashes-content2-tips{
+    margin-top:0.5rem;
+    color: #ee83b0;
+    font-size: 0.6rem;
+}
+/*红包弹框*/
+.my-purse-withdraw-cashes-modal1{
+    position: relative;
+    width: 17rem;
+    height: 14rem;
+    text-align: center;
+    background: url(../img/my-purse/model-21.png) no-repeat;
+    background-size: contain;
+}
+.my-purse-red-pack-modal{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    width: 5rem;
+}
+.my-purse-red-pack-modal img{
+    width: 5rem;
+}
+.my-purse-red-pack-table-wrap{
+    width: ;
+}
+.my-purse-red-pack-table{
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.my-purse-red-pack-table tr th{
+     padding: 4px 4px;
+    color: #e1dcd2;
+    font-size: 0.6rem;
+ }
+.my-purse-red-pack-table tr td{
+    padding: 2px 6px;
+}
+p.ill-text {
+    color: #fdb428;
+    font-size: 0.6rem;
+}
+p.table-color1{
+    color:#bccf41;
+}
+p.table-color2{
+    color:#e1dcd2;
+}
+p.table-color3{
+    color:#8dc63f;
+}
+p.table-color4{
+    color:#e50000;
+}
+/*iPhone5的适配*/
+@media only screen and (max-width: 320px){
+    .my-purse-content{
+        width: 15rem;
+        height: 20rem;
+    }
+    .my-purse-content-wrap {
+        height: 20rem;
+    }
+    .my-purse-content-header ul li{
+        width: 4.5rem;
+        height: 5rem;
+    }
+    .my-purse-content-header ul li p{
+        margin-top:3.6rem;
+    }
+    .my-purse-money-wrap img{
+        width: 3rem;
+        margin-top: 10px;
+    }
+    .my-purse-money-wrap img.my-purse-money-unit{
+        width: 0.6rem;
+    }
+    .my-purse-money-wrap{
+        margin-top: 0.4rem;
+    }
+    .my-purse-money-wrap p{
+        font-size: 1.2rem;
+        margin-top: -5px;
+    }
+    .my-purse-tips-wrap .my-purse-tips img{
+        width: 2.5rem;
+    }
+    .my-purse-tips-content p{
+        font-size: 0.6rem;
+    }
+    .my-purse-money-wrap img.my-purse-withdraw-cashes{
+        width: 9.5rem;
+        margin-top: -1px;
+    }
+    .my-purse-red-pack-wrap img.my-purse-red-pack-btn{
+        width: 3.2rem;
+    }
+    .my-purse-header-modal{
+        width: 15rem;
+        height: 8rem;
+    }
+    .my-purse-header-modal-close{
+        position: absolute;
+        top: -6px;
+        width: 1.2rem;
+    }
+    .my-purse-header-modal-close img{
+        width: 1.2rem;
+    }
+    .my-purse-header-modal-title{
+        left: 0.6rem;
+        top: 1rem;
+        width: 0.6rem;
+    }
+    .my-purse-header-modal-title img{
+        width: 0.6rem;
+    }
+    /*提现弹框*/
+    .my-purse-withdraw-cashes-modal {
+        width: 15rem;
+        height: 13rem;
+    }
+    .my-purse-withdraw-cashes-modal-close{
+        position: absolute;
+        top: 0.2rem;
+        right: -0.1rem;
+        width: 1.2rem;
+    }
+    .my-purse-withdraw-cashes-modal-close img{
+        width: 1.2rem;
+    }
+    .my-purse-withdraw-cashes-title2{
+        top:1.2rem;
+    }
+    .my-purse-withdraw-cashes-content2{
+        top: 3.4rem;
+    }
+    .my-purse-withdraw-cashes-content2 p{
+        margin-bottom: 0.2rem;
+    }
+    .my-purse-withdraw-cashes-btn2{
+        bottom: 2rem;
+    }
+    .my-purse-withdraw-cashes-modal1 {
+        position: relative;
+        width: 15rem;
+        height: 14rem;
+        text-align: center;
+        background: url(../img/my-purse/model-21.png) no-repeat;
+        background-size: contain;
+    }
+}
