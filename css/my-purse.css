@@ -44,7 +44,7 @@
 .my-purse-content-header ul li{
     width: 5rem;
     height: 5.5rem;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0);
     margin-top: 0.5rem;
     border-radius: 10px;
 }
@@ -156,7 +156,7 @@
     width: 77%;
     margin-left: 16%;
     color: #faf4c0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 /*提现余额不足弹框*/
 .my-purse-withdraw-cashes-modal {
@@ -279,16 +279,18 @@
     width: 5rem;
 }
 .my-purse-red-pack-table-wrap{
-    width: ;
-}
-.my-purse-red-pack-table{
     position: absolute;
     top: 2.5rem;
     left: 50%;
     width: 80%;
+    height: 9.5rem;
     -webkit-transform: translate(-50%,0%);
     -moz-transform: translate(-50%,0%);
     transform:translate(-50%,0%);
+    overflow-y: auto;
+}
+.my-purse-red-pack-table{
+
     border: 1px solid #cccccc;
     border-radius: 4px;
 }
@@ -315,6 +317,29 @@ p.table-color3{
 }
 p.table-color4{
     color:#e50000;
+}
+.my-purse-red-pack-table-wrap p.wak-text{
+    color: #fdb428;
+    text-align: left;
+}
+.my-purse-red-pack-modal2{
+    width: 6rem;
+}
+.my-purse-red-pack-modal2 img{
+    width: 6rem;
+}
+/*分享弹框*/
+.my-purse-share-wrap{
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+     width: 17rem;
+ }
+.my-purse-share-wrap img{
+    width: 17rem;
 }
 /*iPhone5的适配*/
 @media only screen and (max-width: 320px){
@@ -412,5 +437,15 @@ p.table-color4{
         text-align: center;
         background: url(../img/my-purse/model-21.png) no-repeat;
         background-size: contain;
+    }
+    .my-purse-red-pack-table-wrap{
+        height: 8rem;
+    }
+    /*分享弹框*/
+    .my-purse-share-wrap{
+        width: 14rem;
+    }
+    .my-purse-share-wrap img{
+        width: 14rem;
     }
 }

@@ -20,15 +20,18 @@
         <div class="my-purse-content">
             <div class="my-purse-content-header">
                 <ul>
-                    <li><p>25235.8</p></li>
-                    <li><p>25235.8</p></li>
-                    <li><p>25235.8</p></li>
+                    <li id="my-purse-content1-id"><p>25235.8</p></li>
+                    <li id="my-purse-content2-id"><p>25235.8</p></li>
+                    <li id="my-purse-content3-id"><p>25235.8</p></li>
                 </ul>
             </div>
             <div class="my-purse-money-wrap">
                 <img class="my-purse-money-title" src="img/my-purse/redpack.png" alt="">
                 <p>30 <img class="my-purse-money-unit" src="img/my-purse/yuan.png" alt=""></p>
-                <img class="my-purse-withdraw-cashes" src="img/my-purse/withdraw-cashes.png" alt="">
+                <div id="my-purse-withdraw-cashes-id">
+                    <img class="my-purse-withdraw-cashes" src="img/my-purse/withdraw-cashes.png" alt="" >
+                </div>
+
             </div>
             <!--<div class="my-purse-tips-wrap">
                 <div class="my-purse-tips"><img src="img/my-purse/tips.png" alt=""></div>
@@ -39,36 +42,73 @@
                     <p>3、为防止恶意提现，首次可直接提现，以后每次提现需要达到指定推广人数才可提现；</p>
                 </div>
             </div>-->
-            <div class="my-purse-red-pack-wrap">
+            <div class="my-purse-red-pack-wrap" id="my-purse-red-pack-list-btn">
                 <img class="my-purse-red-pack-btn" src="img/my-purse/红包记录普通.png" alt="">
             </div>
         </div>
     </div>
 </div>
-<!--弹框-->
-<div class="my-purse-modal-mark-wrap" id="my-purse-modal-mark">
+<!--弹框遮罩-->
+<div class="my-purse-modal-mark-wrap model-hiden" id="my-purse-modal-mark">
 </div>
-<!--<div class="my-purse-header-modal-wrap">
+<!--awb弹框-->
+<div class="my-purse-header-modal-wrap model-hiden" id="my-purse-awb-id">
     <div class="my-purse-header-modal">
-        <div class="my-purse-header-modal-close">
+        <div class="my-purse-header-modal-close" id="my-purse-awb-close-id">
             <img class="" src="img/my-purse/close1.png" alt="">
         </div>
         <div class="my-purse-header-modal-title">
             <img class="" src="img/my-purse/B.png" alt="">
         </div>
         <div class="my-purse-header-modal-content">
-            <p>玩币是平台发行的代币，可用于直接充值传奇游戏，可通过挖矿或者参与平台活动获得。
+            <p>awb为挖矿所获得，拥有awb即成为平台股东，可参与运营分红。
             </p>
             <p>
-                下载登录爱玩宝传奇盒子可获得
+                下载登录爱玩宝传奇盒子可获得。
             </p>
         </div>
     </div>
-</div>-->
-<!--红包余额不足-->
-<!--<div class="my-purse-header-modal-wrap">
+</div>
+<!--玩币弹框-->
+<div class="my-purse-header-modal-wrap model-hiden" id="my-purse-player-id">
+    <div class="my-purse-header-modal">
+        <div class="my-purse-header-modal-close" id="my-purse-player-close-id">
+            <img class="" src="img/my-purse/close1.png" alt="">
+        </div>
+        <div class="my-purse-header-modal-title">
+            <img class="" src="img/my-purse/币.png" alt="">
+        </div>
+        <div class="my-purse-header-modal-content">
+            <p>玩币是平台发行的代币，可用于直接充值传奇游戏，可通过挖矿或者参与平台活动获得。
+            </p>
+            <p>
+                下载登录爱玩宝传奇盒子可获得。
+            </p>
+        </div>
+    </div>
+</div>
+<!--积分弹框-->
+<div class="my-purse-header-modal-wrap model-hiden" id="my-purse-number-id">
+    <div class="my-purse-header-modal">
+        <div class="my-purse-header-modal-close" id="my-purse-number-close-id">
+            <img class="" src="img/my-purse/close1.png" alt="">
+        </div>
+        <div class="my-purse-header-modal-title">
+            <img class="" src="img/my-purse/分.png" alt="">
+        </div>
+        <div class="my-purse-header-modal-content">
+            <p>积分为平台货币，用户可通过参与活动任务获得，可用于转盘抽奖、兑换会员话费实物等礼物。
+            </p>
+            <p>
+                下载登录爱玩宝传奇盒子可获得。
+            </p>
+        </div>
+    </div>
+</div>
+<!--红包余额不足弹框-->
+<div class="my-purse-header-modal-wrap model-hiden" id="my-purse-red-pack-id">
     <div class="my-purse-withdraw-cashes-modal">
-        <div class="my-purse-withdraw-cashes-modal-close">
+        <div class="my-purse-withdraw-cashes-modal-close my-purse-red-pack-close-btn">
             <img class="" src="img/my-purse/close2.png" alt="">
         </div>
         <div class="my-purse-withdraw-cashes-title">
@@ -77,15 +117,15 @@
         <div class="my-purse-withdraw-cashes-content">
             <p>最低30元提现</p>
         </div>
-        <div class="my-purse-withdraw-cashes-btn">
+        <div class="my-purse-withdraw-cashes-btn my-purse-red-pack-close-btn">
             <img src="img/my-purse/ok.png" alt="">
         </div>
     </div>
-</div>-->
+</div>
 <!--推广人数不足弹框-->
-<!--<div class="my-purse-header-modal-wrap">
+<div class="my-purse-header-modal-wrap model-hiden" id="my-purse-tui-id">
     <div class="my-purse-withdraw-cashes-modal">
-        <div class="my-purse-withdraw-cashes-modal-close">
+        <div class="my-purse-withdraw-cashes-modal-close my-purse-red-pack-close-btn">
             <img class="" src="img/my-purse/close2.png" alt="">
         </div>
         <div class="my-purse-withdraw-cashes-title2">
@@ -96,15 +136,15 @@
             <p>提现次数 <span class="color3">3</span> 需要达到的推广人数 <span class="color4">4</span></p>
             <p class="my-purse-withdraw-cashes-content2-tips">为防止恶意提现，首次可直接提现，以后每次提现需要达到指定推广人数才可提现。</p>
         </div>
-        <div class="my-purse-withdraw-cashes-btn2">
+        <div class="my-purse-withdraw-cashes-btn2" id="my-purse-tui-share-id">
             <img src="img/my-purse/OK1.png" alt="">
         </div>
     </div>
-</div>-->
-<!--红包记录-->
-<div class="my-purse-header-modal-wrap">
+</div>
+<!--红包记录弹框-->
+<div class="my-purse-header-modal-wrap model-hiden" id="my-purse-red-pack-list-id">
     <div class="my-purse-withdraw-cashes-modal1">
-        <div class="my-purse-withdraw-cashes-modal-close">
+        <div class="my-purse-withdraw-cashes-modal-close my-purse-red-pack-close-btn">
             <img class="" src="img/my-purse/close2.png" alt="">
         </div>
         <div class="my-purse-red-pack-modal">
@@ -128,6 +168,16 @@
                     <td><p class="ill-text">积分兑换</p></td>
                 </tr>
                 <tr>
+                    <td><p class="table-color1">2019:01/01</p><p class="table-color2">01:01:01</p></td>
+                    <td><p class="table-color4">+12222.02</p></td>
+                    <td><p class="ill-text">积分兑换</p></td>
+                </tr>
+                <tr>
+                    <td><p class="table-color1">2019:01/01</p><p class="table-color2">01:01:01</p></td>
+                    <td><p class="table-color4">+12222.02</p></td>
+                    <td><p class="ill-text">积分兑换</p></td>
+                </tr>
+                <tr>
                 <td><p class="table-color1">2019:01/01</p><p class="table-color2">01:01:01</p></td>
                 <td><p class="table-color4">+12.02</p></td>
                 <td><p class="ill-text">首次登陆领红包</p></td>
@@ -137,8 +187,26 @@
         </div>
     </div>
 </div>
+<!--什么是挖矿弹框-->
+<div class="my-purse-header-modal-wrap model-hiden" id="my-purse-wa-kuang-id">
+    <div class="my-purse-withdraw-cashes-modal1">
+        <div class="my-purse-withdraw-cashes-modal-close">
+            <img class="" src="img/my-purse/close2.png" alt="">
+        </div>
+        <div class="my-purse-red-pack-modal my-purse-red-pack-modal2">
+            <img src="img/my-purse/充值_1.png" alt="">
+        </div>
+        <div class="my-purse-red-pack-table-wrap">
+            <p class="wak-text">William Shakespeare (1564-1616), the foremost writer, prominent dramatist and poet in the European Renaissance. He created a large number of popular literary works, occupies a special position in the history of European literature, has been hailed as "Olympus Zeus in human literature." He is also known as the four great tragedies of ancient Greece, Aeschylus, Sophocles and Euripides.</p>
+        </div>
+    </div>
+</div>
+<!--分享-->
+<div class="my-purse-share-wrap model-hiden" id="my-purse-share-id">
+    <img src="img/my-purse/share.png" alt="">
+</div>
 <script src="./js/zepto.min.js"></script>
 <script src="./js/sm.min.js"></script>
-
+<script src="./js/my-purse.js"></script>
 </body>
 </html>

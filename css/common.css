@@ -40,6 +40,12 @@ a:hover {
     margin-top: 1rem;
     width: 4rem;
 }
+.model-hiden{
+    display: none;
+}
+.model-show{
+    display: block;
+}
 /*iPhone5的适配*/
 @media only screen and (max-width: 320px){
     .common-logo-wrap img{
