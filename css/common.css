@@ -52,11 +52,25 @@ a:hover {
     margin-top: 1rem;
     width: 4rem;
 }
+/*显示和隐藏*/
 .model-hiden{
     display: none;
 }
 .model-show{
     display: block;
+}
+/*分享弹框*/
+.common-share-wrap {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+    width: 17rem;
+}
+.common-share-wrap img {
+    width: 17rem;
 }
 /*iPhone5的适配*/
 @media only screen and (max-width: 320px){
@@ -67,6 +81,13 @@ a:hover {
     .common-logo-wrap img{
         margin-top: 1rem;
         width: 3.2rem;
+    }
+    /*分享弹框适配*/
+    .common-share-wrap{
+        width: 14rem;
+    }
+    .common-share-wrap img{
+        width: 14rem;
     }
 }
 /* 固定高度，滚动查看 */
