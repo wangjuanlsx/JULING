@@ -449,3 +449,11 @@ p.table-color4{
         width: 14rem;
     }
 }
+
+/* 固定高度，滚动查看 */
+@media only screen and (min-height: 704px) and (max-height: 736px)  {
+    .my-purse-wrap {
+        position: relative;
+        height: 704px;
+    }
+}
