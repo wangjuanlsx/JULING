@@ -114,6 +114,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     background: #061b48;
+    z-index: 10;
 }
 .page-bottom-wrap .page-bottom-line {
     padding: 0 15px;
