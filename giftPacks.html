@@ -13,10 +13,8 @@
 		</div>
 		<div class="gift-box-wrap">
 			<img src="img/giftPacks/mask.png" alt="">
-			<div class="gift-box">
-			</div>
-			<div class="test-box"></div>
-			<div class="test-box2"></div>
+			<div class="gift-box"></div>
+			<div class="gift-box-after"></div>
 			<div class="light"></div>
 		</div>
 		<div class="play-way-wrap">
@@ -40,5 +38,13 @@
 			</div>
 		</div>
 	</div>
+	<script src="./js/zepto.min.js"></script>
+	<script src="./js/sm.min.js"></script>
+	<script>
+		setTimeout(function () {
+			$('.gift-box').css('display','none');
+			$('.gift-box-after').css('display','block');
+		},4000)
+	</script>
 </body>
 </html>
