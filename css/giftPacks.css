@@ -123,7 +123,7 @@ body {
     left: 0%;
 }
 .gift-box {
-	background: url(./../img/giftPacks/box-animate.png);
+	background: url(./../img/giftPacks/box-animate2.png);
 	width: 610px;
 	height:417px;
 	animation: boxopen 2s 2s steps(18) forwards;
