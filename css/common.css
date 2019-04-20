@@ -87,6 +87,7 @@ a:hover {
         position: relative;
         height: 1024px;
     }
+}
 .page-bottom-wrap {
     position: fixed;
     bottom: 0;
@@ -121,5 +122,4 @@ a:hover {
 }
 .page-bottom-wrap .page-bottom-button a.active p {
     font-weight: bold;
-}
 }
