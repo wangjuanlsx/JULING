@@ -1,0 +1,156 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+.home-page-wrap {
+	background: url(./../img/common/bg-2.png);
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.home-page-top {
+	padding: 15px 10px 0px 10px;
+}
+.home-page-top img {
+	width: 100%;
+}
+.home-page-content {
+	width: 100%;
+	padding: 5px 0px;
+
+}
+.home-page-content img {
+	width: 100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 2px;
+}
+.swiper-pagination-bullet {
+	background: transparent;
+	border: 1px solid #1ed2e5;
+	opacity: 1;
+}
+.swiper-pagination-bullet-active {
+	background: #1ed2e5;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: 25px;
+}
+.home-page-content img.home-page-rule {
+    width: 20%;
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+}
+.channel-list {
+	position: absolute;
+	top: 12%;
+}
+.channel-list .list-title {
+	width: 100%;
+}
+.channel-list .list-title img {
+    width: 100%;
+}
+.list-content {
+	padding: 0 18% 0 12%;
+}
+.list-content ul li div {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.list-content ul li div div, .list-content ul li div p {
+	/* width: 50%; */
+	font-size: 14px;
+	color: #1ed2e5;
+}
+.list-content ul li div div {
+	display: flex;
+	display: -webkit-flex;
+	justify-content: start;
+}
+.list-content ul li div div img {
+    height: 16.5px;
+    width: auto;
+    margin-right: 5px;
+}
+.list-content-line {
+	width: 100%;
+}
+.list-content .sum-word {
+	color: #fff;
+	text-align: center;
+	margin-left: 5%;
+}
+.list-content .sum-number {
+	color: #1ed2e5;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 5%;
+}
+.list-content .sum-number span {
+	font-size: 16px;
+}
+
+
+.home-page-btn {
+	width: 100%;
+	margin-top: 8%;
+}
+.home-page-btn img {
+	width: 100%;
+}
+
+
+/* 固定高度，滚动查看 */
+@media only screen and (max-height: 736px) {
+	.home-page-wrap {
+		position: relative;
+		height: 736px;
+	}
+
+}
+@media only screen and (min-height: 736px) and (max-height: 812px) {
+	.home-page-wrap {
+		position: relative;
+		height: 812px;
+	}
+}
+/*iPhoneX的适配*/
+/* @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .introduce-wrap {
+        padding-top: 88px;   //为导航栏+状态栏的高度 88px  
+    }
+
+} */
+/*iPhone5的适配*/
+@media only screen and (max-width: 320px){
+    .list-content ul li div div, .list-content ul li div p {
+		font-size: 13px;
+	}
+	.list-content .sum-number {
+		font-size: 30px;
+	}
+}

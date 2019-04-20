@@ -87,4 +87,39 @@ a:hover {
         position: relative;
         height: 1024px;
     }
+.page-bottom-wrap {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #061b48;
+}
+.page-bottom-wrap .page-bottom-line {
+    padding: 0 15px;
+    position: absolute;
+    top: -12px;
+}
+.page-bottom-wrap .page-bottom-line img {
+    width: 100%;
+}
+.page-bottom-wrap .page-bottom-button {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.page-bottom-wrap .page-bottom-button a {
+    width: 25%;
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+}
+.page-bottom-wrap .page-bottom-button a img {
+    width: 30%;
+}
+.page-bottom-wrap .page-bottom-button a p {
+    color: #1ed2e5;
+    font-size: 11px;
+}
+.page-bottom-wrap .page-bottom-button a.active p {
+    font-weight: bold;
+}
 }
