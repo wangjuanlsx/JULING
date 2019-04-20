@@ -25,7 +25,7 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: url(../img/giftPacks/bg3.png);
+	background: url(../img/giftPacks/bg.png);
 	background-size: cover;
 }
 .top-talk {
@@ -126,7 +126,7 @@ body {
 	background: url(./../img/giftPacks/box-animate2.png);
 	width: 610px;
 	height:417px;
-	animation: boxopen 2s 2s steps(14) forwards;
+	animation: boxopen 2s 2s steps(18) forwards;
 	zoom:0.5;
 	margin: 0 auto;
 	position: relative;
@@ -137,13 +137,47 @@ body {
 		background-position: 0 0;
 	}
 	to {
-		background-position: -1400% 0px;
+		background-position: -1800% 0px;
+	}
+}
+@-webkit-keyframes boxopen{
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -1800% 0px;
+	}
+}
+.test-box {
+	background: url(./../img/giftPacks/box-animate3.png);
+	width: 610px;
+	height:417px;
+	animation: boxopensss 2s 2s steps(15) forwards;
+	zoom:0.5;
+	margin: 0 auto;
+	position: relative;
+	/* transition-delay: 2s; */
+}
+@keyframes boxopensss{
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -1500% 0px;
+	}
+}
+@-webkit-keyframes boxopensss{
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -1500% 0px;
 	}
 }
 .light {
 	width: 349px;
 	height: 174px;
-	background: url(./../img/giftPacks/light2.png);
+	background: url(./../img/giftPacks/light.png);
 	animation: light 1s 2s steps(7) infinite;
 	zoom:0.5;
 	margin: 0 auto;
