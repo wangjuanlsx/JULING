@@ -72,13 +72,14 @@ $(function(){
         $('#my-purse-player-id').addClass('model-hidden').removeClass('model-show');
         $('#my-purse-number-id').addClass('model-hidden').removeClass('model-show');
         $('#my-purse-awb-id').addClass('model-hidden').removeClass('model-show');
+        $('#my-purse-red-pack-list-id').addClass('model-hidden').removeClass('model-show');
     });
     // 点击红包记录
     $('#my-purse-red-pack-list-btn').on('click', function(){
         $('#my-purse-modal-mark').addClass('model-show').removeClass('model-hidden');
         $('#my-purse-red-pack-list-id').addClass('model-show').removeClass('model-hidden');
     });
-    // 关闭提现，推广不足
+    // 关闭红包记录
     $('.my-purse-red-pack-close-btn').on('click', function(){
         $('#my-purse-modal-mark').addClass('model-hidden').removeClass('model-show');
         $('#my-purse-red-pack-list-id').addClass('model-hidden').removeClass('model-show');
