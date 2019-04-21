@@ -275,7 +275,7 @@
     top: 2.5rem;
     left: 50%;
     width: 80%;
-    height: 9.5rem;
+    height: 8.5rem;
     -webkit-transform: translate(-50%,0%);
     -moz-transform: translate(-50%,0%);
     transform:translate(-50%,0%);
@@ -332,6 +332,21 @@ p.table-color4{
  }
 .my-purse-share-wrap img{
     width: 17rem;
+}
+/*红包分页*/
+.red-pack-page-wrap{
+    position: absolute;
+    bottom: 1.5rem;
+    display: flex;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+}
+.red-pack-page-wrap .page-item{
+    margin: 0 6px;
+    font-size: 12px;
+    color: #fdb428;
 }
 /*iPhone5的适配*/
 @media only screen and (max-width: 320px){
@@ -431,7 +446,10 @@ p.table-color4{
         background-size: contain;
     }
     .my-purse-red-pack-table-wrap{
-        height: 8rem;
+        height: 7.4rem;;
+    }
+    .red-pack-page-wrap{
+        bottom: 2.8rem;
     }
     /*分享弹框*/
     .my-purse-share-wrap{
