@@ -6,38 +6,37 @@
     display: inline-block;
     height: 3.5rem;
     width: 32rem;
+    margin-left: 0.6rem;
 }
 .frequently-question-header-wrap ul li{
-    width: 3.5rem;
-    height: 3.5rem;
-    margin-left: 0.5rem;
+    width: 70px;
+    height: 70px;
 }
 /*正常*/
 li.question-header-item{
     position: relative;
     text-align: center;
     background: url(../img/frequently-question/icon-bg.png) no-repeat;
-    background-position: 0 -4.26rem;
-    background-size: 3.5rem;
+    background-position: 0 -85px;
+    background-size: 70px;
     display: inline-block;
 }
 li.question-header-item .question-header-item-icon{
     width:1.5rem;
     height: 1.5rem;
     background: url(../img/frequently-question/icon.png) no-repeat;
-    background-position: 0 -1.7rem;
-    background-size: 1.5rem;
+    background-position: 0 -34px;
+    background-size: 30px;
     position: absolute;
     top: 0.2rem;
     left: 1rem;
 }
 li.question-header-item p.question-header-item-text{
-    font-size: 0.65rem;
+    font-size: 12px;
     color: #1c7fb6;
-    background-size: 1.5rem;
     position: absolute;
-    top: 2rem;
-    width: 3.5rem;
+    top: 40px;
+    width: 70px;
 }
 
 /*active*/
@@ -46,28 +45,28 @@ li.question-header-item.active{
     text-align: center;
     background: url(../img/frequently-question/icon-bg.png) no-repeat;
     background-position: 0 0;
-    background-size: 3.5rem;
+    background-size: 70px;
 }
 li.question-header-item.active .question-header-item-icon{
     width:1.5rem;
     height: 1.5rem;
     background: url(../img/frequently-question/icon.png) no-repeat;
     background-position: 0 0;
-    background-size: 1.5rem;
+    background-size: 30px;
     position: absolute;
     top: 0.2rem;
     left: 1rem;
 }
 li.question-header-item.active p.question-header-item-text{
-    font-size: 0.65rem;
+    font-size: 12px;
     color: #1ad6e2;
-    background-size: 1.5rem;
     position: absolute;
-    top: 2rem;
-    width: 3.5rem;
+    top: 40px;
+    width: 70px;
 }
 /*内容*/
 .frequently-question-content-wrap{
+    display: none;
     width: 92%;
     height: 22.5rem;
     background: url(../img/frequently-question/content-bg.png) no-repeat;
@@ -152,5 +151,24 @@ ul.frequently-question-content-item{
     .my-purse-red-pack-table-wrap{
         height: 8rem;
     }
+    .my-purse-withdraw-cashes-modal1 {
+        position: relative;
+        width: 15rem;
+        height: 14rem;
+        text-align: center;
+        background: url(../img/my-purse/model-21.png) no-repeat;
+        background-size: contain;
+    }
+}
+@media only screen and (min-width: 768px){
+    .frequently-question-content-wrap {
+        height: 33.5rem;}
+}
+/*显示和隐藏*/
+.frequently-question-content-wrap.model-hiden{
+    display: none;
+}
+.frequently-question-content-wrap.model-show{
+    display: block;
 }
 
