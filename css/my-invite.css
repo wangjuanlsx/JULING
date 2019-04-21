@@ -1,0 +1,155 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+.my-invite-wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../img/common/bg-2.png);
+  background-size: cover;
+}
+.my-invite-top-wrap {
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+}
+.my-invite-top-wrap img {
+  width: 100%;
+}
+.my-invite-top-wrap p {
+  color: #4bd1fb;
+  position: absolute;
+}
+.my-invite-top-wrap p.person-sum {
+  top: 2.4em;
+  right: 5.3em;
+}
+.my-invite-top-wrap p.coin-sum {
+  font-size: 25px;
+  font-weight: bold;
+  top: 3.5em;
+  left: 7.5em;
+}
+.my-invite-top-wrap p.coin-sum span {
+  font-size: 14px;
+  font-weight: normal;
+}
+.my-invite-list {
+  width: 100%;
+  position: relative;
+}
+.my-invite-list>img {
+  padding: 0 15px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+.my-invite-list ul {
+  position: relative;
+  z-index: 1;
+  top: 5em;
+}
+.my-invite-list ul li {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  margin: 0 30px;
+  align-items: center;
+  padding: 3px 0;
+  border-bottom: 1px solid #19aec1;
+}
+.my-invite-list ul li:first-child {
+  border-top: 1px solid #19aec1;
+}
+.my-invite-list-portrait {
+  height: 2.6em;
+  width: 2.6em;
+  background: url(../img/ranking/portrait-bg.png) no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.my-invite-list-portrait img {
+  width: 100%;
+}
+.my-invite-list ul li .my-invite-list-portrait-wrap, .my-invite-list ul li .time, .my-invite-list ul li .name, .my-invite-list ul li .state {
+  width: 25%;
+  color: #b2e3ff;
+  text-align: center;
+}
+.my-invite-btn {
+  margin-top: 14em;
+}
+.my-invite-page {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -7em;
+  z-index: 1;
+  align-items: center;
+}
+.my-invite-page img {
+  transform: scale(.5,.5);
+
+}
+.my-invite-page p {
+  color: #fff;
+  margin: 0 10px;
+}
+.my-invite-page p span {
+  color: #4bd1fb;
+}
+/* 固定高度，滚动查看 */
+@media only screen and (max-height: 736px) {
+  .my-invite-wrap {
+    position: relative;
+    height: 800px;
+  }
+
+}
+@media only screen and (min-height: 736px) and (max-height: 812px) {
+  .my-invite-wrap {
+    position: relative;
+    height: 812px;
+  }
+}
+/*iPhone5的适配*/
+@media only screen and (max-width: 320px){ 
+  .my-invite-top-wrap p.person-sum {
+    top: 2em;
+    right: 4.5em;
+  }
+  .my-invite-top-wrap p.coin-sum {
+    top: 3em;
+    left: 6em;
+  }
+  .my-invite-list-portrait {
+    height: 2em;
+    width: 2em;
+  }
+  .my-invite-list ul li .my-invite-list-portrait-wrap, .my-invite-list ul li .time, .my-invite-list ul li .name, .my-invite-list ul li .state {
+    font-size: 13px;
+  }
+}
