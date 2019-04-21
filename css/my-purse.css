@@ -113,6 +113,7 @@
     -webkit-transform: translate(-50%,-50%);
     -moz-transform: translate(-50%,-50%);
     transform:translate(-50%,-50%);
+    z-index: 1000;
 }
 .my-purse-header-modal{
     position: relative;

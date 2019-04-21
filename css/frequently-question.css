@@ -1,5 +1,5 @@
 .frequently-question-header-wrap{
-    width: 19rem;
+    width: 100%;
     overflow-y: auto;
 }
 .frequently-question-header-wrap ul{
@@ -68,9 +68,89 @@ li.question-header-item.active p.question-header-item-text{
 }
 /*内容*/
 .frequently-question-content-wrap{
-    width: 17rem;
+    width: 92%;
     height: 22.5rem;
     background: url(../img/frequently-question/content-bg.png) no-repeat;
     background-size: contain;
+    margin-left: 4%;
+}
+ul.frequently-question-content-item{
+    padding: 1.2rem 1rem;
+}
+.frequently-question-content-item li span.item-icon{
+    float: left;
+}
+.frequently-question-content-item li span.item-icon img{
+    width: 0.6rem;
+}
+.frequently-question-content-item li p{
+    margin-left: 24px;
+    color: #1caac3;
+}
+.frequently-question-content-item li{
+    padding: 0.6rem 0.5rem;
+    border-bottom: 1px solid #19aec1;
+}
+/*弹框*/
+.my-purse-header-modal-wrap{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    z-index: 9999;
+}
+.my-purse-withdraw-cashes-modal1{
+    position: relative;
+    width: 17rem;
+    height: 14rem;
+    text-align: center;
+    background: url(../img/my-purse/model-21.png) no-repeat;
+    background-size: contain;
+}
+.my-purse-withdraw-cashes-modal-close{
+    position: absolute;
+    top: 0.2rem;
+    right: -0.1rem;
+    width: 1.2rem;
+}
+.my-purse-withdraw-cashes-modal-close img{
+    width: 1.2rem;
+}
+.my-purse-red-pack-modal{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    width: 5rem;
+}
+.my-purse-red-pack-modal img{
+    width: 5rem;
+}
+.my-purse-red-pack-modal2{
+    width: 6rem;
+}
+.my-purse-red-pack-modal2 img{
+    width: 6rem;
+}
+.my-purse-red-pack-table-wrap{
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    width: 80%;
+    height: 9.5rem;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+    overflow-y: auto;
+}
+.my-purse-red-pack-table-wrap p.wak-text{
+    color: #fdb428;
+    text-align: left;
+}
+@media only screen and (max-width: 320px){
+    .my-purse-red-pack-table-wrap{
+        height: 8rem;
+    }
 }
 
