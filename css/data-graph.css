@@ -1,0 +1,69 @@
+.data-graph-wrap {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(../img/data-graph/bg.png);
+	background-size: cover;
+}
+.data-graph-tab-content-wrap {
+	top: 2.5em;
+}
+.buttons-tab {
+	background: transparent;
+	padding: 15px;
+}
+.buttons-tab .button {
+	height: 7em;
+	/* margin: 0 2px; */
+}
+.data-graph-tab-content a.tab-link1{
+	background: url(../img/data-graph/icon-1.png) no-repeat center;
+	background-size: contain;
+}
+.data-graph-tab-content a.tab-link1.active{
+	background: url(../img/data-graph/icon-1-active.png) no-repeat center;
+	background-size: contain;
+}
+.data-graph-tab-content a.tab-link2{
+	background: url(../img/data-graph/icon-2.png) no-repeat center;
+	background-size: contain;
+}
+.data-graph-tab-content a.tab-link2.active{
+	background: url(../img/data-graph/icon-2-active.png) no-repeat center;
+	background-size: contain;
+}
+.data-graph-tab-content a.tab-link3{
+	background: url(../img/data-graph/icon-3.png) no-repeat center;
+	background-size: contain;
+}
+.data-graph-tab-content a.tab-link3.active{
+    background: url(../img/data-graph/icon-3-active.png) no-repeat center;
+    background-size: contain;
+}
+.data-graph-tab-content a.tab-link4{
+	background: url(../img/data-graph/icon-4.png) no-repeat center;
+	background-size: contain;
+}
+.data-graph-tab-content a.tab-link4.active{
+   background: url(../img/data-graph/icon-4-active.png) no-repeat center;
+   background-size: contain;
+}
+.buttons-tab .button.active {
+	border-width: 0;
+}
+.buttons-tab:after{
+	height: 0px;
+	width: 0px;
+}
+.data-graph-tab-content-list div {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.buttons-tab a p {
+	color: #01d4f9;
+	text-align: center;
+	margin-top: 5.8em;
+}
