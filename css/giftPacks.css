@@ -126,7 +126,7 @@ body {
 	background: url(./../img/giftPacks/box-animate-before.png);
 	width: 610px;
 	height:417px;
-	animation: boxopen 2s 2s steps(11) forwards;
+	animation: boxopen 1.2s 2s steps(10) forwards;
 	zoom:0.5;
 	margin: 0 auto;
 	position: relative;
@@ -137,14 +137,14 @@ body {
 		background-position: 0 0;
 	}
 	to {
-		background-position: -1100% 0px;
+		background-position: -1000% 0px;
 	}
 }
 .gift-box-after {
 	background: url(./../img/giftPacks/box-animate-after.png);
 	width: 610px;
 	height:417px;
-	animation: boxopenafter 2s steps(7) forwards;
+	animation: boxopenafter 1s steps(7) forwards;
 	zoom:0.5;
 	margin: 0 auto;
 	position: relative;

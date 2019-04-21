@@ -116,12 +116,22 @@ body {
 
 
 .home-page-btn {
-	width: 100%;
-	margin-top: 8%;
+	width: 70%;
+	padding: 6.8% 14%;
+	background: url(./../img/common/button.png);
+	background-size: cover;
+	margin: 0 auto;
 }
-.home-page-btn img {
-	width: 100%;
+.home-page-btn:active {
+	width: 70%;
+	padding: 6.8% 14%;
+	background: url(./../img/common/button-active.png);
+	background-size: cover;
+	margin: 0 auto;
 }
+/* .home-page-btn img {
+	width: 100%;
+} */
 
 
 /* 固定高度，滚动查看 */
