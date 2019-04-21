@@ -1,0 +1,267 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+.ranking-wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../img/common/bg-2.png);
+  background-size: cover;
+}
+.buttons-tab {
+  background: transparent;
+  padding: 15px;
+}
+.buttons-tab .button {
+  height: 1.2em;
+  /* margin: 0 2px; */
+}
+.ranking-tab-content {
+  background: url(../img/ranking/tab-bg.png) no-repeat center;
+  background-size: contain;
+  margin: 0 15px;
+}
+.ranking-tab-content a.tab-link1{
+  background: url(../img/ranking/tab-1.png) no-repeat center;
+  background-size: contain;
+  margin-top: .5em;
+}
+.ranking-tab-content a.tab-link1.active{
+  background: url(../img/ranking/tab-1-active.png) no-repeat center;
+  background-size: contain;
+  margin-top: .3em;
+}
+.ranking-tab-content a.tab-link2{
+  background: url(../img/ranking/tab-2.png) no-repeat center;
+  background-size: contain;
+  margin-top: .5em;
+}
+.ranking-tab-content a.tab-link2.active{
+  background: url(../img/ranking/tab-2-active.png) no-repeat center;
+  background-size: contain;
+  margin-top: .3em;
+}
+.buttons-tab .button.active {
+  border-width: 0;
+}
+.buttons-tab:after{
+  height: 0px;
+  width: 0px;
+}
+/* .ranking-tab-content-list div {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+} */
+.buttons-tab a p {
+  color: #01d4f9;
+  text-align: center;
+  margin-top: 5.8em;
+}
+.ranking-tab-wrap>img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  left: 0;
+  padding: 10px 7px;
+}
+.content-block {
+  padding: 0 .25rem;
+  margin-top: -10px;
+}
+.ranking-tab-wrap {
+  position: relative;
+}
+.ranking-list-wrap {
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  top: 4em;
+  z-index: 1;
+  justify-content: center;
+}
+.ranking-list-wrap>div {
+  text-align: center;
+  width: 30%;
+}
+.ranking-list-topthree-portrait {
+  height: 4em;
+  width: 4em;
+  background: url(../img/ranking/portrait-bg.png) no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.ranking-list-topthree-portrait img {
+  width: 100%;
+}
+.ranking-list-topthree-portrait-wrap {
+  height: 4em;
+  width: 4em;
+  position: relative;
+  margin: 0 auto;
+}
+.ranking-list-topthree-portrait-wrap>img {
+  width: 40%;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.ranking-list-name, .ranking-list-word-blue p{
+  color: #b1ecff;
+  font-size: 12px;
+}
+.ranking-list-word-yellow p{
+  color: #f1cc6d;
+  font-size: 12px;
+}
+.ranking-list-word-blue, .ranking-list-word-yellow {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.ranking-list-word-blue img, .ranking-list-word-yellow img {
+  height: 1.4em;
+
+}
+.ranking-list-wrap>div.ranking-top-one {
+  width: 40%;
+  margin-top: -2em;
+}
+.ranking-top-one .ranking-list-topthree-portrait, .ranking-top-one .ranking-list-topthree-portrait-wrap {
+  height: 5em;
+  width: 5em;
+}
+.ranking-list-other-wrap {
+  position: relative;
+  top: 4.5em;
+  z-index: 1;
+}
+.ranking-list-other-wrap ul li {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  line-height: 2.5em;
+  padding: 0 15px;
+  margin-bottom: 3px;
+}
+.ranking-list-other-wrap ul li:nth-child(odd) {
+  background: url(../img/ranking/mask.png) no-repeat center;
+  background-size: contain;
+}
+.ranking-list-other-wrap .ranking-list-topthree-portrait, .ranking-list-other-wrap .ranking-list-topthree-portrait-wrap {
+  height: 2.6em;
+  width: 2.6em;
+  margin: 0 10px;
+}
+.ranking-list-other-wrap ul li>span {
+  background: #8fa8cd;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2em;
+  text-align: center;
+  display: block;
+  border-radius: 100%;
+  color: #fff;
+}
+.ranking-list-other-wrap ul li>p {
+  width: 20%;
+  color: #b1ecff;
+  font-size: 12px;
+}
+.ranking-list-other-wrap ul li .ranking-list-word-blue, .ranking-list-other-wrap ul li .ranking-list-word-yellow {
+  width: 30%;
+}
+.time {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 8em;
+  margin-bottom: 1em;
+}
+
+/* 固定高度，滚动查看 */
+@media only screen and (max-height: 736px) {
+  .ranking-tab-content-list {
+    position: relative;
+    height: 690px;
+  }
+
+}
+@media only screen and (min-height: 736px) and (max-height: 812px) {
+  .ranking-tab-content-list {
+    position: relative;
+    height: 700px;
+  }
+}
+/*iPhoneX的适配*/
+/* @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .introduce-wrap {
+        padding-top: 88px;   //为导航栏+状态栏的高度 88px  
+    }
+
+} */
+/*iPhone5的适配*/
+@media only screen and (max-width: 320px){
+  .ranking-list-topthree-portrait, .ranking-list-topthree-portrait-wrap {
+    height: 2.8em;
+    width: 2.8em;
+  }
+  .ranking-top-one .ranking-list-topthree-portrait, .ranking-top-one .ranking-list-topthree-portrait-wrap {
+    height: 3.8em;
+    width: 3.8em;
+  }
+  .ranking-list-name, .ranking-list-word-blue p, .ranking-list-other-wrap ul li>p, .ranking-list-word-yellow p {
+    font-size: 10px;
+  }
+  .ranking-list-word-blue img, .ranking-list-word-yellow img {
+    height: 1em;
+  }
+  .ranking-list-other-wrap .ranking-list-topthree-portrait, .ranking-list-other-wrap .ranking-list-topthree-portrait-wrap {
+    height: 2em;
+    width: 2em;
+    margin: 0 10px;
+  }
+  .ranking-list-wrap {
+    top: 3.2em;
+  }
+  .ranking-list-wrap>div.ranking-top-one {
+    margin-top: -1.5em;
+  }
+  .ranking-list-other-wrap {
+    top: 3.8em;
+  }
+  .time {
+    margin-top: 6em;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .time {
+    margin-top: 11em;
+  }
+
+}

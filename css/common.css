@@ -86,10 +86,12 @@ a:hover {
     -webkit-transform: translate(-50%,0%);
     -moz-transform: translate(-50%,0%);
     transform: translate(-50%,0%);
-    width: 17rem;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 10px;
 }
 .common-share-wrap img {
-    width: 17rem;
+    width: 100%;
 }
 /*返回*/
 .back-btn-wrap{
@@ -147,7 +149,7 @@ a:hover {
 .page-bottom-wrap .page-bottom-line {
     padding: 0 15px;
     position: absolute;
-    top: -12px;
+    top: -15px;
 }
 .page-bottom-wrap .page-bottom-line img {
     width: 100%;
@@ -172,4 +174,18 @@ a:hover {
 }
 .page-bottom-wrap .page-bottom-button a.active p {
     font-weight: bold;
+}
+.common-share-btn {
+    width: 70%;
+    padding: 6.8% 14%;
+    background: url(./../img/common/button.png);
+    background-size: cover;
+    margin: 0 auto;
+}
+.common-share-btn:active {
+    width: 70%;
+    padding: 6.8% 14%;
+    background: url(./../img/common/button-active.png);
+    background-size: cover;
+    margin: 0 auto;
 }

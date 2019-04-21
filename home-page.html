@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 	<title>首页</title>
+    <link rel="stylesheet" href="css/sm.min.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="./css/common.css">
 	<link rel="stylesheet" href="./css/home-page.css">
@@ -87,8 +88,15 @@
 				<div class="swiper-pagination"></div>
 			</div>
 		</div>
-		<div class="home-page-btn">
+		<div class="home-page-btn common-share-btn">
 		</div>
+	</div>
+	<!--弹框遮罩-->
+	<div class="my-purse-modal-mark-wrap common-model-mark-wrap model-hiden" id="my-purse-modal-mark">
+	</div>
+	<!--分享-->
+	<div class="common-share-wrap model-hiden" id="my-purse-share-id">
+		<img src="img/my-purse/share.png" alt="">
 	</div>
 	<div class="page-bottom-wrap">
 		<div class="page-bottom-line">
@@ -126,5 +134,8 @@
 		});   
 		   
 	</script>
+	<script src="./js/zepto.min.js"></script>
+    <script src="./js/sm.min.js"></script>
+    <script src="./js/common.js"></script>
 </body>
 </html>
