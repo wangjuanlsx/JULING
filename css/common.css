@@ -59,6 +59,16 @@ a:hover {
 .model-show{
     display: block;
 }
+/*遮罩*/
+.common-model-mark-wrap{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 999;
+}
 /*分享弹框*/
 .my-purse-modal-mark-wrap{
     position: fixed;
@@ -79,6 +89,15 @@ a:hover {
 }
 .common-share-wrap img {
     width: 17rem;
+}
+/*返回*/
+.back-btn-wrap{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.back-btn-wrap img{
+    width: 3rem;
 }
 /*iPhone5的适配*/
 @media only screen and (max-width: 320px){

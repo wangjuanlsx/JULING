@@ -98,14 +98,14 @@
     width: 3.8rem;
 }
 /*弹框*/
-.my-purse-modal-mark-wrap{
+/*.my-purse-modal-mark-wrap{
     position: fixed;
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.8);
-}
+}*/
 .my-purse-header-modal-wrap{
     position: fixed;
     top: 50%;

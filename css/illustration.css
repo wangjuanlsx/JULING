@@ -1,0 +1,179 @@
+.illustration-content-wrap ul{
+    width: 94%;
+    height: 23rem;
+    background: url(../img/illustration/content-bg.png) no-repeat;
+    background-size: contain;
+    margin-left: 3%;
+}
+li.illustration-content-item1{
+    height: 4rem;
+}
+li.illustration-content-item2{
+    height: 4rem;
+}
+li.illustration-content-item3{
+    height: 6.2rem;
+}
+li.illustration-content-item4{
+    height: 6.2rem;
+}
+li.illustration-content-item{
+    position: relative;
+    width: 100%;
+}
+li.illustration-content-item img.illustration-content-item-img1{
+    position: absolute;
+    width: 86%;
+    left: 50%;
+    top: 1.4rem;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+}
+li.illustration-content-item img.illustration-content-item-img2{
+    position: absolute;
+    width: 63%;
+    left: 58%;
+    top: 1.8rem;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform:translate(-50%,0%);
+}
+/*规则说明*/
+.illustration-content-wrap1{
+    position: relative;
+    width: 94%;
+    height: 30rem;
+    background: url(../img/illustration/content-bg1.png) no-repeat;
+    background-size: contain;
+    margin-left: 3%;
+    top: 2rem;
+}
+.rule-illustration-title{
+    position: absolute;
+    display: inline-block;
+    left: 52%;
+    top: 2.2rem;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+    text-align: center;
+    width: 40%;
+}
+.rule-illustration-title img{
+    width: 82%;
+}
+.rule-illustration-text-wrap{
+    position: absolute;
+    top: 5.7rem;
+    width: 86%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    -moz-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+}
+.rule-illustration-text-wrap p{
+    font-size: 0.6rem;
+    color:#a4cabd;
+}
+.rule-illustration-text-wrap1{
+    top: 16.5rem;
+}
+@media only screen and (max-width: 320px){
+    li.illustration-content-item1{
+        height: 3.5rem;
+    }
+    li.illustration-content-item2{
+        height: 3.5rem;
+    }
+    li.illustration-content-item3{
+        height: 5.2rem;
+    }
+    li.illustration-content-item4{
+        height: 5.2rem;
+    }
+
+    .illustration-content-wrap1{
+        height: 23rem;
+    }
+    .rule-illustration-title {
+        top: 1.9rem;
+    }
+    .rule-illustration-text-wrap{
+        width: 100%;
+        top: 18%;
+        left:0;
+        transform: scale(.85);
+    }
+    .rule-illustration-text-wrap1{
+        top: 13.5rem;
+    }
+}
+@media only screen and (min-width: 768px){
+    .illustration-content-wrap ul{
+        height: 39rem;
+    }
+    li.illustration-content-item1{
+        height: 6.5rem;
+    }
+    li.illustration-content-item2{
+        height: 6.5rem;
+    }
+    li.illustration-content-item3{
+        height: 10.2rem;
+    }
+    li.illustration-content-item4{
+        height: 10.2rem;
+    }
+/*规则说明*/
+    .illustration-content-wrap1{
+        width: 94%;
+        height: 45rem;
+        background: url(../img/illustration/content-bg1.png) no-repeat;
+        background-size: contain;
+        margin-left: 3%;
+    }
+    .rule-illustration-title {
+        top: 3.4rem;
+    }
+    .rule-illustration-text-wrap{
+        top: 10rem;
+    }
+    .rule-illustration-text-wrap1{
+        top: 26.5rem;
+    }
+}
+@media only screen and (min-width: 768px){
+    .illustration-content-wrap ul{
+        height: 39rem;
+    }
+    li.illustration-content-item1{
+        height: 6.5rem;
+    }
+    li.illustration-content-item2{
+        height: 6.5rem;
+    }
+    li.illustration-content-item3{
+        height: 10.2rem;
+    }
+    li.illustration-content-item4{
+        height: 10.2rem;
+    }
+    /*规则说明*/
+    .illustration-content-wrap1{
+        width: 94%;
+        height: 45rem;
+        background: url(../img/illustration/content-bg1.png) no-repeat;
+        background-size: contain;
+        margin-left: 3%;
+    }
+    .rule-illustration-title {
+        top: 3.4rem;
+    }
+    .rule-illustration-text-wrap{
+        top: 10rem;
+    }
+    .rule-illustration-text-wrap1{
+        top: 26.5rem;
+    }
+}
