@@ -56,11 +56,23 @@ body {
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
 	bottom: 25px;
 }
-.home-page-content img.home-page-rule {
+.home-page-content .home-page-rule {
     width: 20%;
     position: absolute;
     bottom: 17px;
     right: 10px;
+    background: url(./../img/home-page/rule.png) no-repeat center;
+    height: 20px;
+    background-size: cover;
+}
+.home-page-content .home-page-rule:active {
+    width: 20%;
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+    background: url(./../img/home-page/rule-click.png) no-repeat center;
+    height: 20px;
+    background-size: cover;
 }
 .channel-list {
 	position: absolute;
@@ -79,10 +91,11 @@ body {
 	display: flex;
 	display: -webkit-flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .list-content ul li div div, .list-content ul li div p {
 	/* width: 50%; */
-	font-size: 14px;
+	font-size: 13px;
 	color: #1ed2e5;
 }
 .list-content ul li div div {
@@ -105,13 +118,13 @@ body {
 }
 .list-content .sum-number {
 	color: #1ed2e5;
-	font-size: 32px;
+	font-size: 25px;
 	font-weight: bold;
 	text-align: center;
 	margin-left: 5%;
 }
 .list-content .sum-number span {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 
@@ -158,9 +171,17 @@ body {
 /*iPhone5的适配*/
 @media only screen and (max-width: 320px){
     .list-content ul li div div, .list-content ul li div p {
-		font-size: 13px;
+		font-size: 10px;
 	}
 	.list-content .sum-number {
-		font-size: 30px;
+		font-size: 22px;
+		margin-top: -5px;
 	}
+	.list-content .sum-word {
+		font-size: 12px;
+		margin-top: -5px;
+	}
+	/* .list-content ul li div div img {
+		margin-bottom: -10px;
+	} */
 }
