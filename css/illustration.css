@@ -53,7 +53,7 @@ li.illustration-content-item img.illustration-content-item-img2{
     position: absolute;
     display: inline-block;
     left: 52%;
-    top: 2.2rem;
+    top: 0.5rem;
     -webkit-transform: translate(-50%,0%);
     -moz-transform: translate(-50%,0%);
     transform: translate(-50%,0%);
@@ -65,7 +65,7 @@ li.illustration-content-item img.illustration-content-item-img2{
 }
 .rule-illustration-text-wrap{
     position: absolute;
-    top: 5.7rem;
+    top: 4.5rem;
     width: 86%;
     left: 50%;
     -webkit-transform: translate(-50%,0%);
@@ -78,6 +78,10 @@ li.illustration-content-item img.illustration-content-item-img2{
 }
 .rule-illustration-text-wrap1{
     top: 16.5rem;
+}
+img.title2{
+    width: 90%;
+    margin-top: 10px;
 }
 @media only screen and (max-width: 320px){
     li.illustration-content-item1{
@@ -97,11 +101,11 @@ li.illustration-content-item img.illustration-content-item-img2{
         height: 23rem;
     }
     .rule-illustration-title {
-        top: 1.9rem;
+        top: 0.4rem;
     }
     .rule-illustration-text-wrap{
         width: 100%;
-        top: 18%;
+        top: 11%;
         left:0;
         transform: scale(.85);
     }
