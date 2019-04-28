@@ -153,6 +153,20 @@ body {
 	height: 12rem;
 	overflow-y: auto;
 }
+.btn-group-wrap ul{
+	display: flex;
+	justify-content: center;
+}
+.btn-group-wrap{
+	padding-bottom: 5rem;
+}
+.btn-group-wrap ul li{
+	cursor: pointer;
+	margin: 7px;
+}
+.btn-group-wrap ul li img{
+	width: 6.5rem;
+}
 /* 固定高度，滚动查看 */
 @media only screen and (max-height: 736px) {
 	.data-center-wrap {
@@ -199,6 +213,9 @@ body {
 	}
 	.data-center-list-ul-wrap{
 		height: 10rem;
+	}
+	.btn-group-wrap ul li img{
+		width: 5.5rem;
 	}
 }
 @media only screen and (min-width: 414px){
