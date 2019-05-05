@@ -34,10 +34,10 @@ $('.tab-link2').on('click', function(){
     var timer = setTimeout(function () {
         var myChart2 = echarts.init(document.getElementById('tab2-content'));
         var data2 = [{'name':'','value':105},
-        {'name':'08:00','value':90},
+        {'name':'08:00','value':-90},
         {'name':'09:00','value':115},
         {'name':'10:00','value':125},
-        {'name':'11:00','value':110},
+        {'name':'11:00','value':-110},
         {'name':'12:00','value':134},
         {'name':'13:00','value':145},
         {'name':'','value':165}]
@@ -93,7 +93,6 @@ function drawChart(myChart,data) {
             axisLabel: {
                 show: true,
                 color: '#fff',
-                margin: -100,
             },
             data: Object.keys(data).map(function (key) {
                 return data[key].name;
