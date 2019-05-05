@@ -84,7 +84,7 @@ function drawChart(myChart,data) {
     var option = {
         grid: {
             left: 0,
-            bottom: 0,
+            bottom: 20,
             right: 0,
         },
         xAxis: {
