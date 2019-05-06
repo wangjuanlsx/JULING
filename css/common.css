@@ -185,7 +185,7 @@ a:hover {
 .common-share-btn:active {
     width: 70%;
     padding: 6% 14%;
-    background: url(./../img/common/button-active.png);
+    background: url(./../img/common/button.png);
     background-size: cover;
     margin: 0 auto;
 }
