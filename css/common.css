@@ -183,9 +183,9 @@ a:hover {
     margin: 0 auto;
 }
 .common-share-btn:active {
-    width: 70%;
-    padding: 6% 14%;
-    background: url(./../img/common/button.png);
+    width: 71%;
+    padding: 6.8% 14%;
+    background: url(./../img/common/button-active.png);
     background-size: cover;
     margin: 0 auto;
 }
