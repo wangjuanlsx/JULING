@@ -166,7 +166,7 @@ a:hover {
     padding: 10px 0px;
 }
 .page-bottom-wrap .page-bottom-button a:active {
-    margin-top: -3px;
+    padding: 7px 0px;
 }
 .page-bottom-wrap .page-bottom-button a img {
     width: 30%;
