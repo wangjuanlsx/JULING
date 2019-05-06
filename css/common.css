@@ -165,6 +165,9 @@ a:hover {
     display: block;
     padding: 10px 0px;
 }
+.page-bottom-wrap .page-bottom-button a:active {
+    margin-top: -3px;
+}
 .page-bottom-wrap .page-bottom-button a img {
     width: 30%;
 }
